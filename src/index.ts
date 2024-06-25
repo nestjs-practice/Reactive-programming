@@ -4,6 +4,7 @@ import { customStream } from './stream/custom';
 import { createObserver } from './observer/create';
 import { completeObservable, errorObservable } from './observer/error-complete';
 import { deleteObservable } from './observer/delete';
+import { pipableOperator } from './operator/pipable-operator';
 
 // * 배열 스트림
 // arrayStream();
@@ -18,4 +19,7 @@ import { deleteObservable } from './observer/delete';
 // createObserver();
 // errorObservable()
 // completeObservable();
-deleteObservable();
+// deleteObservable();
+
+// * 파이프
+pipableOperator();
