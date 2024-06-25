@@ -89,7 +89,7 @@ setTimeout(_ => {
 
 ## 추가 기능이 있는 Subject
 
-## BehaviorSubject
+### BehaviorSubject
 
 마지막 값을 저장 후 추가 구독자에게 발행
 ```typescript
@@ -108,7 +108,7 @@ subject.next(4)
 subject.next(5)
 ```
 
-## ReplaySubject
+### ReplaySubject
 
 마지막 N개 값을 저장 후 추가 구독자에게 발행
 ```typescript
@@ -129,7 +129,7 @@ subject.next(6)
 subject.next(7)
 ```
 
-## AsyncSubject
+### AsyncSubject
 
 Complete 후의 마지막 값만 발행
 ```typescript
