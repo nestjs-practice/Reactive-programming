@@ -1,6 +1,5 @@
 ##  Pipable operators:
 
----
 
 * Observable의 데이터를 pure function으로 가공<br>
 * (현존하는 데이터를 수정하지 않음)
