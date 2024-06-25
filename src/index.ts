@@ -5,6 +5,7 @@ import { createObserver } from './observer/create';
 import { completeObservable, errorObservable } from './observer/error-complete';
 import { deleteObservable } from './observer/delete';
 import { pipableOperator } from './operator/pipable-operator';
+import { scheduler } from './scheduler/scheduler';
 
 // * 배열 스트림
 // arrayStream();
@@ -22,4 +23,9 @@ import { pipableOperator } from './operator/pipable-operator';
 // deleteObservable();
 
 // * 파이프
-pipableOperator();
+// pipableOperator();
+
+// * subject
+
+// * scheduler
+scheduler();
